@@ -61,23 +61,65 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
   background-size:45px;
 }
 
+
+
+  @media (prefers-color-scheme: dark){
+     body {
+    background: #000;
+     }
+     .img-toggle {
+        background: url:url(ressources/dark-empire.jgp) center / cover;
+    }
+}
+
+img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+.img-toggle {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    background: url(ressources/light-empire.jgp) center / cover;
+}
   
 </style>
 </head>
 <body>
  <div class="spinner-wrapper text-center">
     <div>
-      <img src="img/90921-laptop.gif" alt="Computer man" style="width:50%;height:50%;">
+      <img src="img/90921-laptop.gif" alt="Computer man" style="width:50%;height:50%;    margin-left: 25%;">
     </div>
+  </div>
+  
+  <div>
+  
+<div class="img-toggle">
+
+<picture>
+  <source srcset="ressources/dark-empire.jpg" media="(prefers-color-scheme:dark)">
+  <img src="ressources/light-empire.jpg">
+</picture>
+</div>
   </div>
 <div class="main-content">
     <header class="container header active" id="home">
         <div class="header-content">
             <div class="left-header">
                 <div class="h-shape"></div>
-                <div class="image">
+                <!---<div class="image">
                     <img src="img/hero.png" alt="">
-                </div>
+                </div>---->
+				
             </div>
             <div class="right-header">
                 <h1 class="name">
