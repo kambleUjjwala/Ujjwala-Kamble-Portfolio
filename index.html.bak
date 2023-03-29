@@ -136,6 +136,7 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
                     <img src="img/hero.png" alt="">
                 </div>---->
 				
+				
             </div>
             <div class="right-header">
                 <h1 class="name">
@@ -598,7 +599,7 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
                                     <span>Languages</span>
                                 </div>
                                 <p>
-                                    <span>: English,Marathi,Hindi</span>
+                                    <span>: English , Marathi , Hindi</span>
                                 </p>
                             </div>
                         </div>
