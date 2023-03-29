@@ -946,7 +946,16 @@ section {
   .container {
     padding: 7rem 3rem;
   }
-
+.contact-content-con .left-contact .contact-info .contact-item {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-content-con .left-contact h4 {
+    margin-top: 1rem;
+    font-size: 30px;
+    text-transform: uppercase;
+}
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
