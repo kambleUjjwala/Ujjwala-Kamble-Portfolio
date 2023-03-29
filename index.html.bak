@@ -110,6 +110,13 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
     right: 5px;
     box-shadow: 1px 1px 9px 2px #dcdcdc;
 }
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
  } 
 </style>
 </head>
@@ -537,14 +544,14 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
    <span style="--i:5">A</span>
    <span style="--i:6">C</span>
    <span style="--i:7">T</span>
-   <span style="--i:8"></span>
-   <span style="--i:9">M</span>
-   <span style="--i:10">E</span>
-   <span style="--i:8"></span>
-   <span style="--i:9">H</span>
-   <span style="--i:10">E</span>
-   <span style="--i:9">R</span>
-   <span style="--i:10">E</span>
+   <span></span>
+   <span style="--i:8">M</span>
+   <span style="--i:9">E</span>
+   <span></span>
+   <span style="--i:10">H</span>
+   <span style="--i:11">E</span>
+   <span style="--i:12">R</span>
+   <span style="--i:13">E</span>
 
   </div>
                        

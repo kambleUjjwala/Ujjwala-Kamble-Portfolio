@@ -9,7 +9,7 @@
  
   
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #e25e83;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -332,6 +332,9 @@ section {
   width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .jquery {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
   width: 50%;
 }
 
