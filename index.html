@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
   $(".container").ripples({
@@ -19,6 +21,25 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
 	<style>
+	
+	.slideLeft{
+    animation: slide-left 2s linear forwards;
+}
+
+@keyframes slide-left{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+
+}
+
+
 .spinner-wrapper{
     width: 100%;
     height: 100%;
@@ -133,11 +154,11 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
 				
             </div>
             <div class="right-header">
-                <h1 class="name">
+                <h1 class="name slideLeft">
                     Hi, I'm <span>UJJWALA KAMBLE</span></br>
                     A Frontend Developer.
                 </h1>
-                <p>
+                <p class="slideLeft">
                    I'm a Frontend Developer, I love to create Creative	 and functional websites. 
                 </p>
                 <div class="btn-con">
@@ -157,11 +178,10 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
             <div class="about-container">
                 <div class="left-about">
                     <h4>Information About me</h4>
-					<p>My name is Ujjwala Kamble, I'm a front-end developer based in Pune, Maharashtra.
-				</p>
+					
                     <p>
                         
-                  I am a Front-End Developer with over 2 year of experience in developing web applications. 
+                  My name is Ujjwala Kamble, I'm a front-end developer based in Pune with over 2 year of experience in developing web applications. 
 				  I have a strong background in HTML, CSS, and JavaScript, which has enabled me to create visually appealing and interactive webpages.
                     </p>
                     <div class="btn-con">
@@ -288,21 +308,13 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
                 </div>
             </div>
             <h4 class="stat-title">My Timeline</h4>
+			
             <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2016 - 2020</p>
-                    <h5>BE(Computer Science)<span> From Padmabhooshan Vasantdada Patil Institute of Technology,Pune Bavdhan</span></h5>
-                    <p>
-                       I have Completed my BE in computer Science from pune university and PVPIT college with 7.28 CGPA
-                      in 2020.</br>
-						<b>Last year project:</b>HIDING PERSONAL INFORMATION IN HEALTH CARE BY
-						SECURE CLOUD STORAGE.				  
-                    </p>
-                </div>
-                <div class="timeline-item">
+			<div class="sectiontitle">
+			  <h2>Work Experience</h2>
+			  <span class="headerLine"></span>
+			</div>
+			<div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
@@ -314,6 +326,47 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
 					<li>Create Emailers and Infographics</li>
 					</ul>
                 </div>
+			     <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">May 2021 - Feb 2022</p>
+                    <h5>Frontend Developer<span> - DigiPedia</span></h5>
+                    <ul>
+					<li>Build Landing Pages and websites using HTML,CSS and JS.</li>
+					<li>Maintain and Update All websites</li>
+					<li>Create Emailers and Infographics</li>
+					</ul>
+                </div>
+			      <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Feb 2021 - May 2021</p>
+                    <h5>Frontend Developer as Intern<span> - DigiPedia</span></h5>
+                    <ul>
+					<li>Build Landing Pages and websites using HTML,CSS and JS and also in react JS</li>
+					<li>Create Emailers and Infographics</li>
+					</ul>
+                </div>
+				
+				
+				
+			<div class="sectiontitle">
+			  <h2>Educational Details</h2>
+			  <span class="headerLine"></span>
+			</div>
+			
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2016 - 2020</p>
+                    <h5>BE(Computer Science)<span></h5>
+					<p><strong>College Name </strong>Padmabhooshan Vasantdada Patil Institute of Technology,Pune Bavdhan</p>
+                    <p><strong>CGPA:</strong>7.28</p>
+                </div>
+                
                 <div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
@@ -325,18 +378,7 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
                         <b>Percentage </b>= 58.00%
                     </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">May 2021 - Feb 2022</p>
-                    <h5>Frontend Developer<span> - DigiPedia</span></h5>
-                    <ul>
-					<li>Build Landing Pages and websites using HTML,CSS and JS and also in react JS</li>
-					<li>Maintain and Update All websites</li>
-					<li>Create Emailers and Infographics</li>
-					</ul>
-                </div>
+               
                 <div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
@@ -348,18 +390,7 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
                        <b>Percentage:</b> 83.60%
                     </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">Feb 2021 - May 2021</p>
-                    <h5>Frontend Developer as Intern<span> - DigiPedia</span></h5>
-                    <ul>
-					<li>Build Landing Pages and websites using HTML,CSS and JS and also in react JS</li>
-					<li>Maintain and Update All websites</li>
-					<li>Create Emailers and Infographics</li>
-					</ul>
-                </div>
+               
             </div>
         </section>
         <section class="container" id="portfolio">
@@ -610,7 +641,9 @@ background: url(https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon
 								<a href="https://www.linkedin.com/in/ujjwalakamble" target="_blank">
 								<i class="fab fa-linkedin-in"></i>
 								</a>
-                            </div>
+								<a href="mailto:kambleujjwala18@gmail.com" target="_blank">
+								<i class="fas fa-envelope"></i>
+								</a>
                         </div>
                     </div>
                     <div class="right-contact">

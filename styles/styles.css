@@ -91,6 +91,26 @@ section {
     transform: translateY(0) scaleY(1);
   }
 }
+.sectiontitle {
+	    margin-bottom: 2em;
+}
+.sectiontitle h2 {
+  font-size:20px;
+  color: var(--color-secondary);
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+.headerLine {
+    width: 160px;
+    height: 2px;
+    display: inline-block;
+    background: var(--color-grey-1);
+    margin-left:1em;
+}
 
 .controls {
   position: fixed;
@@ -366,7 +386,7 @@ section {
 
 /*Timeline*/
 .timeline {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
@@ -375,6 +395,7 @@ section {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
+      padding-bottom: 2em;
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;
